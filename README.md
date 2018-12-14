@@ -1,10 +1,10 @@
 # iAts_app
 
-A configuration app for iAts
+A configuration app for iAts.
 
 ## 项目介绍
 
-[iAts](https://github.com/akari-tun/iAts)的调参与跟踪飞机位置的APP
+[iAts](https://github.com/akari-tun/iAts) 的调参与跟踪飞机位置的APP
 
 ## APP截图
 
