@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:background="@color/color_Alpha_Black">
+
+    <item
+        android:id="@+id/menu_button_exit"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="10sp"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/colorWhite"
+        android:title="@string/text_exit"/>
+
+</menu>

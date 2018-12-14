@@ -1,0 +1,388 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_tracker_param_title"
+        style="@style/SettingTitleValue"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text="@string/text_setting_title_tracker_param"
+        android:textSize="12sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_tracker_param_title_tracker"
+                    style="@style/SettingTitleValue"
+                    android:text="@string/text_setting_title_tracker" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_tracker_param_tracker_bluetooth"
+                        style="@style/SettingEditTitleValue"
+                        android:layout_height="20dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/text_setting_title_tracker_bluetooth" />
+
+                    <EditText
+                        android:id="@+id/edit_tracker_param_tracker_bluetooth"
+                        style="@style/SettingEditStyle"
+                        android:layout_width="75dp"
+                        android:inputType="text" />
+
+                    <TextView
+                        android:id="@+id/text_tracker_param_tracker_bluetooth_remark"
+                        style="@style/SettingRemark"
+                        android:layout_below="@id/edit_tracker_param_tracker_bluetooth"
+                        android:text="@string/text_setting_remark_tracker_bluetooth" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_tracker_param_tracker_start_tracking_distance"
+                        style="@style/SettingEditTitleValue"
+                        android:layout_height="20dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/text_setting_title_tracker_start_tracking_distance" />
+
+                    <EditText
+                        android:id="@+id/edit_tracker_param_tracker_start_tracking_distance"
+                        style="@style/SettingEditStyle"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:id="@+id/text_tracker_param_title_tracker_start_tracking_distance_remark"
+                        style="@style/SettingRemark"
+                        android:layout_below="@id/edit_tracker_param_tracker_start_tracking_distance"
+                        android:text="@string/text_setting_remark_tracker_start_tracking_distance" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/debug_pid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_tracker_param_title_pid"
+                    style="@style/SettingTitleValue"
+                    android:text="@string/text_setting_title_pid" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_tracker_param_pid_p"
+                        style="@style/SettingEditTitleValue"
+                        android:layout_height="20dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/text_setting_title_pid_p" />
+
+                    <EditText
+                        android:id="@+id/edit_tracker_param_pid_p"
+                        style="@style/SettingEditStyle"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:id="@+id/text_tracker_param_pid_p_remark"
+                        style="@style/SettingRemark"
+                        android:layout_below="@id/edit_tracker_param_pid_p"
+                        android:text="@string/text_setting_remark_pid_p" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_tracker_param_pid_i"
+                        style="@style/SettingEditTitleValue"
+                        android:layout_height="20dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/text_setting_title_pid_i" />
+
+                    <EditText
+                        android:id="@+id/edit_tracker_param_pid_i"
+                        style="@style/SettingEditStyle"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:id="@+id/text_tracker_param_pid_i_remark"
+                        style="@style/SettingRemark"
+                        android:layout_below="@id/edit_tracker_param_pid_i"
+                        android:text="@string/text_setting_remark_pid_i" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_tracker_param_pid_d"
+                        style="@style/SettingEditTitleValue"
+                        android:layout_height="20dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/text_setting_title_pid_d" />
+
+                    <EditText
+                        android:id="@+id/edit_tracker_param_pid_d"
+                        style="@style/SettingEditStyle"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:id="@+id/text_tracker_param_pid_d_remark"
+                        style="@style/SettingRemark"
+                        android:layout_below="@id/edit_tracker_param_pid_d"
+                        android:text="@string/text_setting_remark_pid_d" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_tracker_param_pid_divider"
+                        style="@style/SettingEditTitleValue"
+                        android:layout_height="20dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/text_setting_title_pid_divider" />
+
+                    <EditText
+                        android:id="@+id/edit_tracker_param_pid_divider"
+                        style="@style/SettingEditStyle"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:id="@+id/text_tracker_param_pid_divider_remark"
+                        style="@style/SettingRemark"
+                        android:layout_below="@id/edit_tracker_param_pid_divider"
+                        android:text="@string/text_setting_remark_pid_divider" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_tracker_param_pid_max_error"
+                        style="@style/SettingEditTitleValue"
+                        android:layout_height="20dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/text_setting_title_pid_max_error" />
+
+                    <EditText
+                        android:id="@+id/edit_tracker_param_pid_max_error"
+                        style="@style/SettingEditStyle"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:id="@+id/text_tracker_param_pid_max_error_remark"
+                        style="@style/SettingRemark"
+                        android:layout_below="@id/edit_tracker_param_pid_max_error"
+                        android:text="@string/text_setting_remark_pid_max_error" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/debug_servos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_tracker_param_title_servos"
+                    style="@style/SettingTitleValue"
+                    android:text="@string/text_setting_title_servos"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_tracker_param_servos_tilt_min"
+                        style="@style/SettingEditTitleValue"
+                        android:layout_height="20dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/text_setting_title_servos_tilt_min" />
+
+                    <EditText
+                        android:id="@+id/edit_tracker_param_servos_tilt_min"
+                        style="@style/SettingEditStyle"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:id="@+id/text_tracker_param_servos_tilt_min_remark"
+                        style="@style/SettingRemark"
+                        android:layout_below="@id/edit_tracker_param_servos_tilt_min"
+                        android:text="@string/text_setting_remark_servos_tilt_min" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_tracker_param_servos_tilt_max"
+                        style="@style/SettingEditTitleValue"
+                        android:layout_height="20dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/text_setting_title_servos_tilt_max" />
+
+                    <EditText
+                        android:id="@+id/edit_tracker_param_servos_tilt_max"
+                        style="@style/SettingEditStyle"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:id="@+id/text_tracker_param_title_servos_tilt_max_remark"
+                        style="@style/SettingRemark"
+                        android:layout_below="@id/edit_tracker_param_servos_tilt_max"
+                        android:text="@string/text_setting_remark_servos_tilt_max" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_tracker_param_servos_pan_center"
+                        style="@style/SettingEditTitleValue"
+                        android:layout_height="20dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/text_setting_title_servos_pan_center" />
+
+                    <EditText
+                        android:id="@+id/edit_tracker_param_servos_pan_center"
+                        style="@style/SettingEditStyle"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:id="@+id/text_tracker_param_servos_pan_center_remark"
+                        style="@style/SettingRemark"
+                        android:layout_below="@id/edit_tracker_param_servos_pan_center"
+                        android:text="@string/text_setting_remark_servos_pan_center" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_tracker_param_servos_pan_speed"
+                        style="@style/SettingEditTitleValue"
+                        android:layout_height="20dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/text_setting_title_servos_pan_speed" />
+
+                    <EditText
+                        android:id="@+id/edit_tracker_param_servos_pan_speed"
+                        style="@style/SettingEditStyle"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:id="@+id/text_tracker_param_servos_pan_speed_remark"
+                        style="@style/SettingRemark"
+                        android:layout_below="@id/edit_tracker_param_servos_pan_speed"
+                        android:text="@string/text_setting_remark_servos_pan_speed" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/debug_compass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_tracker_param_title_compass"
+                    style="@style/SettingTitleValue"
+                    android:text="@string/text_setting_title_compass" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_tracker_param_compass_offset"
+                        style="@style/SettingEditTitleValue"
+                        android:layout_height="20dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/text_setting_title_compass_offset" />
+
+                    <EditText
+                        android:id="@+id/edit_tracker_param_compass_offset"
+                        style="@style/SettingEditStyle"
+                        android:inputType="numberSigned" />
+
+                    <TextView
+                        android:id="@+id/text_tracker_param_compass_offset_remark"
+                        style="@style/SettingRemark"
+                        android:layout_below="@id/edit_tracker_param_compass_offset"
+                        android:text="@string/text_setting_remark_compass_offset" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_tracker_param_compass_declination"
+                        style="@style/SettingEditTitleValue"
+                        android:layout_height="20dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/text_setting_title_compass_declination" />
+
+                    <EditText
+                        android:id="@+id/edit_tracker_param_compass_declination"
+                        style="@style/SettingEditStyle"
+                        android:inputType="numberSigned" />
+
+                    <TextView
+                        android:id="@+id/text_tracker_param_compass_declination_remark"
+                        style="@style/SettingRemark"
+                        android:layout_below="@id/edit_tracker_param_compass_declination"
+                        android:text="@string/text_setting_remark_compass_declination" />
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6d83ff</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorButton">#6f8cff</color>
+    <color name="colorAccent">#e82b2b2b</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorLabel">#828282</color>
+    <color name="colorValue">#000000</color>
+    <color name="colorBack">#f1f1f1</color>
+    <color name="colorDividerLine">#b4b4b4</color>
+    <color name="colorYellow">#fdf672</color>
+    <color name="colorPink">#fd6be5</color>
+    <color name="colorGreen">#9efd6b</color>
+    <color name="color_unit_price">#f95b33</color>
+    <color name="color_quota">#3af5c0</color>
+    <color name="color_number">#fd996b</color>
+    <color name="red">#e7502f</color>
+    <color name="pink">#c445c6</color>
+    <color name="blue_dark">#303F9F</color>
+    <color name="blue">#6f8cff</color>
+    <color name="green">#5baf74</color>
+    <color name="accent">#e82b2b2b</color>
+    <color name="black">#000000</color>
+    <color name="gray">#828282</color>
+    <color name="white">#ffffff</color>
+    <color name="back">#f0f0f0</color>
+    <color name="press">#fafafa</color>
+    <color name="divider_line">#b4b4b4</color>
+    <color name="color_Alpha_Black">#B2000000</color>
+    <color name="color_Alpha_Black_2">#EC000000</color>
+    <color name="color_radio_checked">#33da33</color>
+    <color name="color_setting_button">#33da33</color>
+    <color name="color_mode_checked">#B233da33</color>
+</resources>

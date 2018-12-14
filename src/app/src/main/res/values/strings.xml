@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">Auto Tracker</string>
+    <string name="app_company">云台自动跟踪系统</string>
+    <string name="app_company_slogan">团结，互助，开源，创新</string>
+    <string name="app_company_english">Design by Tanjun</string>
+    <string name="app_company_version">Version:</string>
+
+    <string name="log_debug">DEBUG</string>
+
+    <string name="info_disconnected">连接已经断开</string>
+    <string name="info_unable_to_connect">无法连接到设备</string>
+    <string name="info_connection_lost">连接丢失</string>
+
+    <string name="button_open">打开</string>
+    <string name="button_close">关闭</string>k
+    <string name="button_connection">连接</string>
+    <string name="button_disconnection">断开</string>
+    <string name="button_start">启动</string>
+    <string name="button_stop">停止</string>
+    <string name="button_cancel">取消</string>
+    <string name="button_setting">设置</string>
+    <string name="button_download">下载</string>
+    <string name="button_calibrate">较准</string>
+
+    <string name="notify_title">提示</string>
+    <string name="msg_not_gps_permission">当前应用需要打开定位功能。\n\n请点击\"设置\"-\"定位服务\"-打开定位功能。</string>
+    <string name="msg_not_bluetooth_permission">当前应用需要打开定位功能。\n\n请点击\"设置\"-\"蓝牙\"-打开蓝牙功能。</string>
+    <string name="msg_not_enough_permission">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string>
+
+    <string name="parameter_name_pid_p">pid_p</string>
+    <string name="parameter_name_pid_i">pid_i</string>
+    <string name="parameter_name_pid_d">pid_d</string>
+    <string name="parameter_name_pid_divider">pid_divider</string>
+    <string name="parameter_name_pid_max_error">pid_max_error</string>
+    <string name="parameter_name_tilt_min">tilt_min</string>
+    <string name="parameter_name_tilt_max">tilt_max</string>
+    <string name="parameter_name_pan_center">pan_center</string>
+    <string name="parameter_name_pan_min_speed">pan_min_speed</string>
+    <string name="parameter_name_commpass_offset">commpass_offset</string>
+
+    <string name="text_sample_seven_digits">0.0000000</string>
+    <string name="text_sample_one_digits">0.0</string>
+    <string name="text_sample_two_digits">0.00</string>
+    <string name="text_sample_zero">0</string>
+    <string name="text_sample_zero_speed">0 KM/H</string>
+    <string name="text_sample_zero_km">0 KM</string>
+    <string name="text_sample_zero_m">0 M</string>
+    <string name="text_sample_zero_v">0 V</string>
+    <string name="text_sample_zero_o">0 °</string>
+    <string name="text_sample">样例字符</string>
+    <string name="text_status">状态</string>
+    <string name="text_connection">连接</string>
+    <string name="text_disconnection">断开</string>
+    <string name="text_location_home">本地位置</string>
+    <string name="text_location_plane">飞机位置</string>
+    <string name="text_longitude">经度</string>
+    <string name="text_latitude">纬度</string>
+    <string name="text_altitude">海拔</string>
+    <string name="text_heading">方向</string>
+    <string name="text_pitching">俯仰</string>
+    <string name="text_star">星数</string>
+    <string name="text_voltage">电压</string>
+    <string name="text_speed">速度</string>
+    <string name="text_distance">距离</string>
+    <string name="text_initializing">Initializing</string>
+    <string name="text_finding">Finding</string>
+    <string name="text_connecting">Connecting</string>
+    <string name="text_connected">Connected</string>
+    <string name="text_tracking">Tracking</string>
+    <string name="text_manual">Manual</string>
+    <string name="text_exit">退出</string>
+
+    <string name="text_setting_title_debug_param">云台调试</string>
+    <string name="text_setting_title_debug_base">基本指令</string>
+    <string name="text_setting_title_debug_base_auto_guide">自动指北</string>
+    <string name="text_setting_title_debug_base_calibrate">罗盘较准</string>
+    <string name="text_setting_title_debug_base_heading">水平指向角度</string>
+    <string name="text_setting_title_debug_base_tilt">俯仰指向角度</string>
+    <string name="text_setting_title_debug_set_param">下载参数</string>
+    <string name="text_setting_title_debug_set_param_pid">PID参数</string>
+    <string name="text_setting_title_debug_set_param_servos">舵机参数</string>
+    <string name="text_setting_title_debug_set_param_compass">罗盘参数</string>
+    <string name="text_setting_title_debug_set_param_tracker">跟踪参数</string>
+
+    <string name="text_setting_remark_debug_base_auto_guide">云台自动指向北方，方便调试PID参数。</string>
+    <string name="text_setting_remark_debug_base_heading">让云台水平指向指定角度（相对于正北方顺时针方向得夹角 0°~360°）。</string>
+    <string name="text_setting_remark_debug_base_tilt">让云台俯仰抬升到指定角度（0°~90°）。</string>
+    <string name="text_setting_remark_debug_base_calibrate">云台自动执行较准，以2000的PWM值转动5秒，再以1000的PWM值转动5秒，读取罗盘上每个轴的最大值与最小值，得出较准结果，最好每次上电之后都进行一次较准，偶尔发现上电后罗盘输出的数据飘得很厉害，一般断电后10~20秒再上电可以解决。</string>
+    <string name="text_setting_remark_debug_set_param_pid">将PID参数下载到云台中。</string>
+    <string name="text_setting_remark_debug_set_param_servos">将舵机参数下载到云台中。</string>
+    <string name="text_setting_remark_debug_set_param_compass">将罗盘参数下载到云台中。</string>
+    <string name="text_setting_remark_debug_set_param_tracker">开始跟踪距离参数下载到云台中。</string>
+
+    <string name="text_setting_title_tracker_param">云台参数设置</string>
+    <string name="text_setting_title_tracker">云台参数</string>
+    <string name="text_setting_title_tracker_bluetooth">蓝牙名称</string>
+    <string name="text_setting_title_tracker_start_tracking_distance">开始跟踪距离</string>
+    <string name="text_setting_title_pid">PID参数</string>
+    <string name="text_setting_title_pid_p">P</string>
+    <string name="text_setting_title_pid_i">I</string>
+    <string name="text_setting_title_pid_d">D</string>
+    <string name="text_setting_title_pid_divider">PID系数</string>
+    <string name="text_setting_title_pid_max_error">最大误差</string>
+    <string name="text_setting_title_servos">舵机参数</string>
+    <string name="text_setting_title_servos_tilt_min">最小俯仰</string>
+    <string name="text_setting_title_servos_tilt_max">最大俯仰</string>
+    <string name="text_setting_title_servos_pan_center">水平中立点</string>
+    <string name="text_setting_title_servos_pan_speed">最小水平速度</string>
+    <string name="text_setting_title_compass">罗盘设置</string>
+    <string name="text_setting_title_compass_offset">偏移角度</string>
+    <string name="text_setting_title_compass_declination">磁偏角</string>
+
+    <string name="text_setting_remark_tracker_bluetooth">云台蓝牙模块所配置的名称，先在蓝牙中对云台的蓝牙模块进行配对，APP会自动搜索附近在的已配对设备，并与设备进行连接。</string>
+    <string name="text_setting_remark_tracker_start_tracking_distance">飞机与家的距离大于此距离才会跟踪。</string>
+    <string name="text_setting_remark_pid_p">比例系数P的作用是加快系统的响应速度，提高系统的调节精度。P越大，系统的响应速度越快，系统的调节精度越高，但是容易产生超调，甚至会使系统不稳定。P取值过小，则会降低调节精度，使响应速度缓慢，从而延长调节时间，是系统静态、动态特性变差。</string>
+    <string name="text_setting_remark_pid_i">积分作用系数I的作用是消除系统的稳态误差。I越大，系统的静态误差消除的越快，但是I过大，在响应过程的初期会产生积分饱和的现象，从而引起响应过程的较大超调。若I过小，将使系统静态误差难以消除，影响系统的调节精度。</string>
+    <string name="text_setting_remark_pid_d">微分系数D的作用是改善系统的动态特性，其作用主要是在响应过程中抑制偏差向任何方向的变化，对偏差变化进行提前预报。但是D过大，会使响应过程提前制动，从而延长调节时间，而且会降低系统的抗干扰性。</string>
+    <string name="text_setting_remark_pid_divider">PID系数（K），对PID结果进行右移K位（PID = PID / 2^k），使计算结果更为平滑，默认值为15，可以配合PID参数适当调整。</string>
+    <string name="text_setting_remark_pid_max_error">允许的最大误差角度值（单位：0.1度 -> 1度 = 10），此值有两个作用：\n1.减低因磁罗盘偏移造成的角度误差所引起不断摆头的问题; 2.在水平方向跟踪时进入误差范围后提前停止PWM输出，防止因超调造成的摆头问题；。</string>
+    <string name="text_setting_remark_servos_tilt_min">俯仰舵机 0° 时的PWM值，根据舵机来设置，建议从1500开始往下减。</string>
+    <string name="text_setting_remark_servos_tilt_max">俯仰舵机 90° 时的PWM值，根据舵机来设置，建议从1500开始往上加。。</string>
+    <string name="text_setting_remark_servos_pan_center">公式：PAN_CENTER = (PAN_MIN + PAN_MAX) / 2\n水平舵机中立点的PWM值，从1500逐渐减小，直到舵机转动得到最小值（PIN_MIN），再从1500逐渐增大，直到舵机转动，得到最大值（PIN_MIX），再根据公式求出水平中立点（PAN_CENTER）。</string>
+    <string name="text_setting_remark_servos_pan_speed">公式：MIN_PAN_SPEED = (PAN_MAX - PAN_MIN) / 2\n由于舵机存在死区，当PWM值大于死区的值之后舵机才会转动，根据公式求出的值一般需要适当减少。</string>
+    <string name="text_setting_remark_compass_offset">罗盘的偏移角度，如果不是正北，那么调整此角度。</string>
+    <string name="text_setting_remark_compass_declination">去网站 http://www.magnetic-declination.com 查询当地的磁偏角，例如 [磁偏角：3°2′] 那么输入的值为 [度.分 * 10 -> 3.2 * 10 = 32] 如果找不到当地的磁偏角，输入 0 也没事，影响不大。</string>
+
+    <string name="text_setting_title_map_param">地图参数设置</string>
+    <string name="text_setting_title_map">地图参数</string>
+    <string name="text_setting_title_map_line">定位线</string>
+    <string name="text_setting_title_map_type">地图类型</string>
+    <string name="text_setting_title_map_type_normal">普通</string>
+    <string name="text_setting_title_map_type_satellite">卫星</string>
+    <string name="text_setting_title_map_mode">定位模式</string>
+    <string name="text_setting_title_map_mode_normal">普通</string>
+    <string name="text_setting_title_map_mode_following">跟随</string>
+    <string name="text_setting_title_map_mode_compass">罗盘</string>
+    <string name="text_setting_title_map_location">本地位置</string>
+    <string name="text_setting_title_map_location_simulation">模拟定位</string>
+    <string name="text_setting_title_map_location_simulation_lon">经度</string>
+    <string name="text_setting_title_map_location_simulation_lat">纬度</string>
+    <string name="text_setting_title_map_location_simulation_alt">高度</string>
+
+    <string name="text_setting_remark_map_line">是否绘制家到飞机之间的定位线。</string>
+    <string name="text_setting_remark_map_type">显示3D地图还是卫星地图，百度地图的卫星地图在城镇以外的地方都没高清晰的图片。</string>
+    <string name="text_setting_remark_map_mode">飞机位置的定位模式：\n普通：普通状态\n跟随：将飞机位置设为中心点并跟随\n罗盘：在飞机位置显示罗盘</string>
+    <string name="text_setting_remark_map_simulation_location">是否启用模拟本地GPS位置（需要允许模拟位置的权限），修改后需要重启APP才能生效。</string>
+    <string name="text_setting_remark_map_simulation_lon">模拟本地GPS位置的经度。</string>
+    <string name="text_setting_remark_map_simulation_lat">模拟本地GPS位置的纬度。</string>
+    <string name="text_setting_remark_map_simulation_alt">模拟本地GPS位置的高度。</string>
+
+    <string name="text_mode_manual">手动</string>
+    <string name="text_mode_auto">自动</string>
+    <string name="text_mode_debug">调试</string>
+
+    <string name="text_on">打开</string>
+    <string name="text_off">关闭</string>
+    <string name="progress_connecting">正在连接。。。</string>
+
+    <string name="error_bluetooth_not_support">您的手机不支持蓝牙</string>
+</resources>

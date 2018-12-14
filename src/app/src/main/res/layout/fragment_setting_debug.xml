@@ -1,0 +1,242 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/text_debug_param_title"
+        style="@style/SettingTitleValue"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="@string/text_setting_title_debug_param"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="5dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_debug_param_title_base"
+                    style="@style/SettingTitleValue"
+                    android:text="@string/text_setting_title_debug_base" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_debug_param_base_auto_guide"
+                        style="@style/SettingEditTitleValue"
+                        android:layout_height="20dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/text_setting_title_debug_base_auto_guide" />
+
+                    <Switch
+                        android:id="@+id/switch_debug_param_base_auto_guide"
+                        style="@style/SettingSwitchStyle"
+                        android:switchMinWidth="35dp"
+                        android:thumb="@drawable/switch_thumb_selector"
+                        android:track="@drawable/switch_track_selector" />
+
+                    <TextView
+                        android:id="@+id/text_debug_param_base_auto_guide_remark"
+                        style="@style/SettingRemark"
+                        android:layout_below="@id/switch_debug_param_base_auto_guide"
+                        android:text="@string/text_setting_remark_debug_base_auto_guide" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_debug_param_base_calibrate"
+                        style="@style/SettingEditTitleValue"
+                        android:layout_height="20dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/text_setting_title_debug_base_calibrate" />
+
+                    <Button
+                        android:id="@+id/button_debug_param_base_calibrate"
+                        style="@style/SettingButtonStyle"
+                        android:text="@string/button_calibrate" />
+
+                    <TextView
+                        android:id="@+id/text_debug_param_base_calibrate_remark"
+                        style="@style/SettingRemark"
+                        android:layout_below="@id/button_debug_param_base_calibrate"
+                        android:text="@string/text_setting_remark_debug_base_calibrate" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_debug_param_base_heading"
+                        style="@style/SettingEditTitleValue"
+                        android:layout_height="20dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/text_setting_title_debug_base_heading" />
+
+                    <EditText
+                        android:id="@+id/edit_debug_param_base_heading"
+                        style="@style/SettingEditStyle"
+                        android:layout_alignParentEnd="false"
+                        android:layout_marginEnd="5dp"
+                        android:layout_toStartOf="@+id/button_debug_param_base_heading"
+                        android:inputType="number" />
+
+                    <Button
+                        android:id="@+id/button_debug_param_base_heading"
+                        style="@style/SettingButtonStyle"
+                        android:text="@string/button_setting"/>
+
+                    <TextView
+                        android:id="@+id/text_debug_param_base_heading_remark"
+                        style="@style/SettingRemark"
+                        android:layout_below="@id/button_debug_param_base_heading"
+                        android:text="@string/text_setting_remark_debug_base_heading" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_debug_param_base_tilt"
+                        style="@style/SettingEditTitleValue"
+                        android:layout_height="20dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/text_setting_title_debug_base_tilt" />
+
+                    <EditText
+                        android:id="@+id/edit_debug_param_base_tilt"
+                        style="@style/SettingEditStyle"
+                        android:layout_alignParentEnd="false"
+                        android:layout_marginEnd="5dp"
+                        android:layout_toStartOf="@+id/button_debug_param_base_tilt"
+                        android:inputType="number" />
+
+                    <Button
+                        android:id="@+id/button_debug_param_base_tilt"
+                        style="@style/SettingButtonStyle"
+                        android:text="@string/button_setting"
+                        />
+
+                    <TextView
+                        android:id="@+id/text_debug_param_base_tilt_remark"
+                        style="@style/SettingRemark"
+                        android:layout_below="@id/button_debug_param_base_tilt"
+                        android:text="@string/text_setting_remark_debug_base_tilt" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="5dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_debug_param_title_set_param"
+                    style="@style/SettingTitleValue"
+                    android:text="@string/text_setting_title_debug_set_param" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_debug_param_set_param_pid"
+                        style="@style/SettingEditTitleValue"
+                        android:layout_height="20dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/text_setting_title_debug_set_param_pid" />
+
+                    <Button
+                        android:id="@+id/button_debug_param_set_param_pid"
+                        style="@style/SettingButtonStyle"
+                        android:text="@string/button_setting"
+                        />
+
+                    <TextView
+                        android:id="@+id/text_debug_param_set_param_pid_remark"
+                        style="@style/SettingRemark"
+                        android:layout_below="@id/button_debug_param_set_param_pid"
+                        android:text="@string/text_setting_remark_debug_set_param_pid" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_debug_param_set_param_servos"
+                        style="@style/SettingEditTitleValue"
+                        android:layout_height="20dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/text_setting_title_debug_set_param_servos" />
+
+                    <Button
+                        android:id="@+id/button_debug_param_set_param_servos"
+                        style="@style/SettingButtonStyle"
+                        android:text="@string/button_setting"
+                        />
+
+                    <TextView
+                        android:id="@+id/text_debug_param_set_param_servos_remark"
+                        style="@style/SettingRemark"
+                        android:layout_below="@id/button_debug_param_set_param_servos"
+                        android:text="@string/text_setting_remark_debug_set_param_servos" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_debug_param_set_param_compass"
+                        style="@style/SettingEditTitleValue"
+                        android:layout_height="20dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/text_setting_title_debug_set_param_compass" />
+
+                    <Button
+                        android:id="@+id/button_debug_param_set_param_compass"
+                        style="@style/SettingButtonStyle"
+                        android:text="@string/button_setting"
+                        />
+
+                    <TextView
+                        android:id="@+id/text_debug_param_set_param_compass_remark"
+                        style="@style/SettingRemark"
+                        android:layout_below="@id/button_debug_param_set_param_compass"
+                        android:text="@string/text_setting_remark_debug_set_param_compass" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1000dp"
+    android:layout_height="match_parent"
+    android:background="@color/color_Alpha_Black">
+
+    <RadioGroup
+        android:id="@+id/radio_setting_menu"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radio_setting_menu_debug"
+            style="@style/SettingMenuStyles"
+            android:button="@null"
+            android:checked="true"
+            android:background="@drawable/radio_checked_selector"
+            android:drawableTop="@mipmap/debug" />
+
+        <RadioButton
+            android:id="@+id/radio_setting_menu_tracker"
+            style="@style/SettingMenuStyles"
+            android:button="@null"
+            android:checked="false"
+            android:background="@drawable/radio_checked_selector"
+            android:drawableTop="@mipmap/setting" />
+
+        <RadioButton
+            android:id="@+id/radio_setting_menu_map"
+            style="@style/SettingMenuStyles"
+            android:button="@null"
+            android:checked="false"
+            android:background="@drawable/radio_checked_selector"
+            android:drawableTop="@mipmap/map" />
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/right_fragment_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@id/radio_setting_menu"
+        android:background="@color/color_Alpha_Black">
+
+    </FrameLayout>
+
+</RelativeLayout>

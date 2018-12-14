@@ -1,0 +1,160 @@
+<resources>
+    <style name="MoneyText">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+    <style name="InfoText">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/colorLabel</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+    <style name="LibelText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+    <style name="LibelValue">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+    <style name="TitlePosValue">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    <style name="SettingTitleValue">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    <style name="SettingEditTitleValue">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">8sp</item>
+        <item name="android:textStyle">bold</item>
+
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    <style name="SettingRemark">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">6sp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    <style name="TitleLabelValue">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    <style name="BottomLabelValue">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    <style name="TitleImage">
+        <item name="android:layout_width">15dp</item>
+        <item name="android:layout_height">15dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginStart">40dp</item>
+    </style>
+    <style name="BottomImage">
+        <item name="android:layout_width">15dp</item>
+        <item name="android:layout_height">15dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginStart">30dp</item>
+    </style>
+    <style name="SettingMenuImage">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="GroupLibelText">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/colorLabel</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+    <style name="ValueText">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorValue</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+    </style>
+    <style name="ConsumeModeText">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="SettingEditStyle">
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">15dp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:background">@drawable/edit_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    <style name="SettingSwitchStyle">
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">15dp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textOn">@string/text_on</item>
+        <item name="android:textOff">@string/text_off</item>
+    </style>
+    <style name="SettingButtonStyle">
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">15dp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:background">@drawable/button_radius_press_selector</item>
+        <item name="android:text">@string/button_download</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+</resources>

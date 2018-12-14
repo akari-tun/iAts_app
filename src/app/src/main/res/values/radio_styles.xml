@@ -1,0 +1,26 @@
+<resources>
+    <style name="SettingMenuStyles">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">0sp</item>
+    </style>
+
+    <style name="SettingRadioStyle">
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">15dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="ModeRadioStyle">
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">7sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+</resources>
